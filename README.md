@@ -13,5 +13,5 @@ A Fulbright scholar recipient, Alex earned his masters in Computer Science from 
   <img align="left" alt="Alex's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
 </a>
 <a href="https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en&oi=ao">
-  <img align="left" alt="Alex's Google Scholar" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/googlescholar.svg" />
+  <img align="left" alt="Alex's Google Scholar" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/googlescholar.svg" />
 </a>
