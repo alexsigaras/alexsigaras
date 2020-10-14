@@ -6,15 +6,21 @@ A Fulbright scholar recipient, Alex earned his masters in Computer Science from 
 
 </br>
 
-<a href="https://twitter.com/AlexSigaras">
-  <img align="left" alt="Alex's Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+<a href="https://alex.sigaras.com/cv.pdf">
+  <img align="left" alt="Alex's CV" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/adobeacrobatreader.svg" />
 </a>
 <a href="https://www.linkedin.com/in/alexsigaras/">
   <img align="left" alt="Alex's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+</a>
+<a href="https://twitter.com/AlexSigaras">
+  <img align="left" alt="Alex's Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
 </a>
 <a href="https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en&oi=ao">
   <img align="left" alt="Alex's Google Scholar" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/googlescholar.svg" />
 </a>
 <a href="https://orcid.org/0000-0002-7607-559X">
-  <img align="left" alt="Alex's Google Scholar" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/orcid.svg" />
+  <img align="left" alt="Alex's ORCID" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/orcid.svg" />
+</a>
+<a href="https://publons.com/researcher/3240095/alexandros-sigaras/publications/">
+  <img align="left" alt="Alex's Publons" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/publons.svg" />
 </a>
