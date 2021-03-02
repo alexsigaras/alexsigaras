@@ -24,3 +24,8 @@ A Fulbright scholar recipient, Alex earned his masters in Computer Science from 
 <a href="https://publons.com/researcher/3240095/alexandros-sigaras/publications/">
   <img align="left" alt="Alex's Publons" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/publons.svg" />
 </a>
+
+</br>
+</br>
+
+[![Alex's github stats](https://github-readme-stats.vercel.app/api?username=alexsigaras&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
