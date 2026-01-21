@@ -1,6 +1,6 @@
 ## About
 
-Alex, is an Assistant Professor of Research in Systems and Computational Biomedicine and an Assistant Professor of Research in Computational Biomedicine at Weill Cornell Medicine, the Director of AI-XR Lab, and the Director of AI and XR at the Englander Institute for Precision Medicine at Weil Cornell Medicine.
+Alex, is an Assistant Professor of Research in Systems and Computational Biomedicine at Weill Cornell Medicine, the Director of AI-XR Lab, and the Director of AI and XR at the Englander Institute for Precision Medicine at Weil Cornell Medicine.
 
 He develops software solutions for the Englander Institute for Precision Medicine and Institute for Computational Biomedicine with projects spanning over healthcare system design, LIMS, and pipeline design for computational genomic analysis. His research interest focus is on leveraging AI and Medical Extended Reality technologies in a translational manner benefiting patients but also towards teaching the future of medicine in a plethora of medical domains including Precision Medicine, Emergency Medicine, Embryology, Otorhinolaryngology, Cardiology, Pathology, Radiology and Medical Education.
 
@@ -15,6 +15,16 @@ A Fulbright scholar recipient, Alex earned his master's in Computer Science from
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Citations-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--7607--559X-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-7607-559X)
 [![Publons](https://img.shields.io/badge/Publons-Profile-336699?style=for-the-badge&logo=publons&logoColor=white)](https://publons.com/researcher/3240095/alexandros-sigaras/publications/)
+
+<h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark-Light-64px.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png">
+    <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+         width="22" height="22" style="vertical-align: middle;">
+  </picture>
+  <span style="margin-left: 6px;">GitHub Stats</span>
+</h3>
 
 ![Stats](./profile/stats.svg)
 
