@@ -15,3 +15,7 @@ A Fulbright scholar recipient, Alex earned his master's in Computer Science from
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Citations-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--7607--559X-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-7607-559X)
 [![Publons](https://img.shields.io/badge/Publons-Profile-336699?style=for-the-badge&logo=publons&logoColor=white)](https://publons.com/researcher/3240095/alexandros-sigaras/publications/)
+
+![Stats](./profile/stats.svg)
+
+![Top Langs](./profile/top-langs.svg)
