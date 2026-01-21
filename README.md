@@ -6,27 +6,12 @@ He develops software solutions for the Englander Institute for Precision Medicin
 
 A Fulbright scholar recipient, Alex earned his master's in Computer Science from Columbia University. While at Columbia, Alex worked as a researcher at Prof. Allen’s Robotics Lab focusing on medical robotics for surgery and brain-computer interfaces.
 
-</br>
+### 🔗 Links
 
-<a href="https://alex.sigaras.com/cv.pdf">
-  <img align="left" alt="Alex's CV" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/adobeacrobatreader.svg" />
-</a>
-<a href="https://www.linkedin.com/in/alexsigaras/">
-  <img align="left" alt="Alex's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" />
-</a>
-<a href="https://twitter.com/AlexSigaras">
-  <img align="left" alt="Alex's X" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/x.svg" />
-</a>
-<a href="https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en&oi=ao">
-  <img align="left" alt="Alex's Google Scholar" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/googlescholar.svg" />
-</a>
-<a href="https://orcid.org/0000-0002-7607-559X">
-  <img align="left" alt="Alex's ORCID" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/orcid.svg" />
-</a>
-<a href="https://publons.com/researcher/3240095/alexandros-sigaras/publications/">
-  <img align="left" alt="Alex's Publons" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/publons.svg" />
-</a>
+[![CV](https://img.shields.io/badge/CV-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://alex.sigaras.com/cv.pdf)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alex%20Sigaras-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexsigaras/)
+[![X](https://img.shields.io/badge/X-@AlexSigaras-black?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/AlexSigaras)
 
-</br>
-</br>
-
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Citations-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--7607--559X-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-7607-559X)
+[![Publons](https://img.shields.io/badge/Publons-Profile-336699?style=for-the-badge&logo=publons&logoColor=white)](https://publons.com/researcher/3240095/alexandros-sigaras/publications/)
