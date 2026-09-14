@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Alexandros Sigaras' GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 11, Total Commits  (last year) : 1134, Total PRs: 1723, Total Issues: 182, Contributed to (last year): 109</desc>
+        <desc id="descId">Total Stars Earned: 11, Total Commits  (last year) : 1051, Total PRs: 1724, Total Issues: 182, Contributed to (last year): 109</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 77.36514410744476;
+        stroke-dashoffset: 77.83235068406388;
       }
     }
   
