@@ -12,24 +12,22 @@ As an undergraduate, he delivered numerous invited talks on his research at univ
 
 ### 🔗 Links
 
+[![Website](https://img.shields.io/badge/Website-alex.sigaras.com-222?style=for-the-badge&logo=googlechrome&logoColor=white)](https://alex.sigaras.com)
 [![CV](https://img.shields.io/badge/CV-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://alex.sigaras.com/cv.pdf)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alex%20Sigaras-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexsigaras/)
-[![X](https://img.shields.io/badge/X-@AlexSigaras-black?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/AlexSigaras)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alex%20Sigaras-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/AlexSigaras)
 
+[![WCM Scholars](https://img.shields.io/badge/WCM%20Scholars-Profile-B31B1B?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwLjc1Ii8+PHBhdGggZD0iTTcuMjUgNi43NWg5LjV2NS45YzAgMi45LTIuMSA0LjUtNC43NSA1LjYtMi42NS0xLjEtNC43NS0yLjctNC43NS01LjZ6TTcuMjUgMTAuMjVoOS41TTEyIDYuNzV2My41Ii8+PC9zdmc+)](https://scholars.weill.cornell.edu/alexandros-sigaras)
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Citations-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--7607--559X-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-7607-559X)
-[![Publons](https://img.shields.io/badge/Publons-Profile-336699?style=for-the-badge&logo=publons&logoColor=white)](https://publons.com/researcher/3240095/alexandros-sigaras/publications/)
+[![PubMed](https://img.shields.io/badge/PubMed-Bibliography-326599?style=for-the-badge&logo=pubmed&logoColor=white)](https://www.ncbi.nlm.nih.gov/myncbi/alexandros.sigaras.1/bibliography/public/)
+[![NIH RePORTER](https://img.shields.io/badge/NIH%20RePORTER-Grants-20558A?style=for-the-badge)](https://reporter.nih.gov/search/TyXfZqxXKkq0blO3U9uYJw/projects)
 
-<h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark-Light-64px.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png">
-    <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-         width="22" height="22" style="vertical-align: middle;">
-  </picture>
-  <span style="margin-left: 6px;">GitHub Stats</span>
-</h3>
+### 📈 Research Metrics
+
+[![Publications](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Falexsigaras%2Falexsigaras%2Fmain%2Fprofile%2Fmetrics.json&query=%24.publications&label=Publications&color=B31B1B&style=for-the-badge&logo=bookstack&logoColor=white)](https://alex.sigaras.com/#publications)
+[![Citations](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Falexsigaras%2Falexsigaras%2Fmain%2Fprofile%2Fmetrics.json&query=%24.citations&label=Citations&color=4285F4&style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en)
+[![h-index](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Falexsigaras%2Falexsigaras%2Fmain%2Fprofile%2Fmetrics.json&query=%24.h_index&label=h-index&color=4285F4&style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en)
+
+### 📊 GitHub Stats
 
 ![Stats](./profile/stats.svg)
-
-![Top Langs](./profile/top-langs.svg)
