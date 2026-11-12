@@ -24,7 +24,7 @@ As an undergraduate, he delivered numerous invited talks on his research at univ
 
 ### 📈 Research Metrics
 
-[![Publications](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Falexsigaras%2Falexsigaras%2Fmain%2Fprofile%2Fmetrics.json&query=%24.publications&label=Publications&color=B31B1B&style=for-the-badge&logo=bookstack&logoColor=white)](https://alex.sigaras.com/#publications)
+[![Publications](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Falexsigaras%2Falexsigaras%2Fmain%2Fprofile%2Fmetrics.json&query=%24.publications&label=Publications&color=B31B1B&style=for-the-badge&logo=bookstack&logoColor=white)](https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en)
 [![Citations](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Falexsigaras%2Falexsigaras%2Fmain%2Fprofile%2Fmetrics.json&query=%24.citations&label=Citations&color=4285F4&style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en)
 [![h-index](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Falexsigaras%2Falexsigaras%2Fmain%2Fprofile%2Fmetrics.json&query=%24.h_index&label=h-index&color=4285F4&style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en)
 

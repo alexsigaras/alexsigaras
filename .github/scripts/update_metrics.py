@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """Refresh profile/metrics.json for the README research badges.
 
-- citations, h_index, i10_index: Google Scholar profile page
-  (robots.txt allows /citations?user= for all crawlers; fetched once per run
-  with an honest User-Agent).
-- publications: entries in the Publications section of alex.sigaras.com
-  (journal articles, conference proceedings, abstracts, posters), read from
-  the site's data file.
+All values come from one request to the Google Scholar profile page:
+- citations, h_index, i10_index: the "Cited by" table
+- publications: the number of articles listed on the profile
 
-If a source can't be read, its previous values are kept and a warning is
-printed, so a temporary block or site change never blanks a badge.
-Standard library only.
+robots.txt allows /citations?user= for all crawlers but disallows paging
+(cstart=), so the page is fetched once with pagesize=100 (Scholar's maximum)
+and an honest User-Agent. Past 100 articles the count is reported as "100+".
+
+If the page can't be read, the previous values are kept and a warning is
+printed, so a temporary block never blanks a badge. Standard library only.
 """
 
 import json
@@ -20,21 +20,19 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-SCHOLAR_URL = "https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en"
-SITE_DATA_URL = "https://alex.sigaras.com/assets/js/site.js"
-PUBLICATION_TYPES = ("journal", "conference", "abstract", "poster")
+SCHOLAR_URL = "https://scholar.google.com/citations?user=LupDxKUAAAAJ&hl=en&pagesize=100"
 OUT = Path(__file__).resolve().parents[2] / "profile" / "metrics.json"
 USER_AGENT = "profile-metrics-bot/1.0 (+https://github.com/alexsigaras/alexsigaras)"
 
 
-def fetch(url: str, encoding: str = "utf-8") -> str:
+def fetch(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=30) as resp:
-        return resp.read().decode(encoding, errors="replace")
+        return resp.read().decode("latin-1", errors="replace")
 
 
 def scholar_metrics() -> dict:
-    html = fetch(SCHOLAR_URL, encoding="latin-1")
+    html = fetch(SCHOLAR_URL)
     rows = dict(
         (label, int(all_time))
         for label, all_time in re.findall(
@@ -47,48 +45,38 @@ def scholar_metrics() -> dict:
         raise ValueError("citation table not found (page layout changed or request blocked)")
     if rows["Citations"] <= 0 or rows["h-index"] <= 0:
         raise ValueError(f"implausible values: {rows}")
+
+    articles = html.count('<tr class="gsc_a_tr">')
+    if articles <= 0:
+        raise ValueError("article list not found")
+    more = re.search(r'<button[^>]*id="gsc_bpf_more"[^>]*>', html)
+    complete = more is None or "disabled" in more.group(0)
+
     return {
         "citations": rows["Citations"],
         "h_index": rows["h-index"],
         "i10_index": rows["i10-index"],
+        "publications": articles if complete else f"{articles}+",
     }
-
-
-def site_publications() -> dict:
-    js = fetch(SITE_DATA_URL)
-    types = re.findall(r'\{t:"([a-z_-]+)",y:\d{4}', js)
-    count = sum(1 for t in types if t in PUBLICATION_TYPES)
-    if count <= 0:
-        raise ValueError("no publication entries found (site data format changed?)")
-    return {"publications": count}
 
 
 def main() -> int:
     previous = json.loads(OUT.read_text()) if OUT.exists() else {}
-    metrics = dict(previous)
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    try:
+        values = scholar_metrics()
+    except Exception as exc:  # keep last good values
+        print(f"::warning::scholar: {exc}; keeping previous values")
+        return 0 if previous else 1
+    print(f"scholar: {values}")
 
-    for name, source in (("scholar", scholar_metrics), ("site", site_publications)):
-        try:
-            values = source()
-        except Exception as exc:  # keep last good values
-            print(f"::warning::{name}: {exc}; keeping previous values")
-            continue
-        if any(metrics.get(k) != v for k, v in values.items()):
-            metrics.update(values)
-            metrics[f"{name}_updated"] = today
-        print(f"{name}: {values}")
-
-    if not metrics:
-        print("::error::no metrics available from any source")
-        return 1
-
-    if metrics != previous:
-        OUT.parent.mkdir(parents=True, exist_ok=True)
-        OUT.write_text(json.dumps(metrics, indent=2, sort_keys=True) + "\n")
-        print(f"wrote {OUT}")
-    else:
+    if all(previous.get(k) == v for k, v in values.items()):
         print("no change")
+        return 0
+
+    metrics = dict(values, updated=datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(metrics, indent=2, sort_keys=True) + "\n")
+    print(f"wrote {OUT}")
     return 0
 
 
